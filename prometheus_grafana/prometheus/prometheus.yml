@@ -25,8 +25,8 @@ scrape_configs:
     module: [http_2xx]
   static_configs:
     - targets:
-      - http://127.0.0.1:8000
-      - https://etis.psu.ru
+      - http://10.101.249.249:8000
+      - https://ya.ru
       - https://student.psu.ru
   relabel_configs:
     - source_labels: [__address__]
